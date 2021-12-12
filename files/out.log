@@ -1,0 +1,18 @@
+2021-12-05 18:15:00 ERROR IDataProvider:340 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"; SQL statement:
+insert into Film values (1, 'Harry Potter', 1638717300862, 8, 'FILM'); [23505-200]
+2021-12-05 18:15:00 ERROR IDataProvider:340 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"; SQL statement:
+insert into Film values (1, 'Titanic', 1638717300862, 8, 'FILM'); [23505-200]
+2021-12-05 18:19:21 ERROR IDataProvider:340 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"; SQL statement:
+insert into Film values (1, 'Harry Potter', 1638717561381, 8, 'FILM'); [23505-200]
+2021-12-05 18:19:21 ERROR IDataProvider:340 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.FILM(ID) VALUES 1"; SQL statement:
+insert into Film values (1, 'Titanic', 1638717561381, 8, 'FILM'); [23505-200]
+2021-12-05 18:19:23 ERROR IDataProvider:340 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PUBLIC.PRIMARY_KEY_4 ON PUBLIC.CARTOON(ID) VALUES 5"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_4 ON PUBLIC.CARTOON(ID) VALUES 5"; SQL statement:
+insert into Cartoon values (1, 'Adam family', 1638717563174, 8, 'CARTOON'); [23505-200]
+2021-12-05 18:19:23 ERROR IDataProvider:340 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PUBLIC.PRIMARY_KEY_4 ON PUBLIC.CARTOON(ID) VALUES 5"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_4 ON PUBLIC.CARTOON(ID) VALUES 5"; SQL statement:
+insert into Cartoon values (1, 'Madagascar', 1638717563174, 8, 'CARTOON'); [23505-200]
